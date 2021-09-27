@@ -1,0 +1,22 @@
+.loginPage {
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: #EA4334;
+  color: #fff;
+
+  font-size: 18px;
+
+  height: 64px;
+  width: 250px;
+  border-radius: 8px;
+
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

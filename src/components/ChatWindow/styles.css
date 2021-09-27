@@ -39,8 +39,12 @@
     align-items: center;
     cursor: pointer;
     overflow: hidden;
+
+    transition: all ease .3s;
 }
 .chatwindow--body{
+    padding: 20px 30px;
+
     flex: 1;
     overflow-y: auto;
     background-color: #e5ddd5;
@@ -48,6 +52,13 @@
     background-position: center;
     background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
 }
+.chatwindow--body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .chatwindow--body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
 .chatwindow--footer{
     height: 62px;
     display: flex;

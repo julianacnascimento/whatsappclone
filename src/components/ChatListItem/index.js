@@ -15,7 +15,7 @@ export const ChatListItem = ({onClick, active, data}) =>{
         </div>
         <div className="chatListItem--line">
           <div className="chatListItem--lastMsg">
-            <p>opa, tudo bem?</p>
+            <p>{data.lastMessage}</p>
           </div>
         </div>
       </div>
